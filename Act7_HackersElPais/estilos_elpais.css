@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header ul {
+    box-sizing: unset;
+
+    background-color: rgb(4, 58, 78);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+li {
+    display: inline-block;
+    width: 33%;
+}
+
+#elpais {
+    font-size: 1.7rem;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+article {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#barra_navegacion{
+    text-align: center;
+    padding-bottom: 1%;
+
+}
+
+.empresas {
+    color: aquamarine;
+}
+
+#thinkbig_empresas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#proyecto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 69%;
+
+}
+
+#telefonica {
+    width: 14%;
+
+}
+
+#autor {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(107, 114, 129);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#fecha {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(107, 114, 129);
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+
+#twitter {
+    margin: auto;
+    width: 2%;
+
+}
+
+
+.underline {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.Capitular {
+    float: left;
+    font-size: 7em;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: lighter;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+    color: grey;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-bottom: 10px;
+}
+
+.Negro {
+    font-weight: bold
+}
+
+.Italica {
+    font-style: italic;
+}
+
+.Subrayado {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.Parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5px;
+
+}
+
+.espacio-arriba {
+    padding-top: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+
+#enumeracion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#banner{
+    padding: 5% 15% 5% 15%;
+}
+
+#final{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70%;
+}
