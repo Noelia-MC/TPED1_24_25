@@ -1,0 +1,44 @@
+header {
+  font-family: 'Sansita';
+    src: url('fonts/Sansita/Sansita-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: aliceblue;
+    padding: 5vw;
+    background-color: brown;
+}
+
+h2 {
+    font-family: 'Sansita';
+	src: url('fonts/Sansita/Sansita-LightItalic.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 300;
+    padding-left: 1vw;
+
+}
+
+section {
+    background-color: beige;
+    padding: 1vw;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+    
+}
+
+a:hover img {
+    filter: saturate(1);
+    filter: blur(5);
+}
+
+h2:hover {
+    filter: drop-shadow(8px 8px 10px red)
+}
+
+h3:hover {
+    text-decoration: underline;
+}
