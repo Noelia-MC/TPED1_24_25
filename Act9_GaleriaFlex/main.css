@@ -1,0 +1,106 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+  font-family: 'Sansita';
+    src: url('fonts/Sansita/Sansita-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    color: aliceblue;
+    padding: 5vw;
+
+    background-image: url(imagenes/plumeria-1.jpg);
+}
+
+.contenedor{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
+
+
+
+}
+
+.item_tipo-flor{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+
+h2 {
+    font-family: 'Sansita';
+	src: url('fonts/Sansita/Sansita-LightItalic.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 300;
+    font-size:xx-large;
+    padding-top: 5vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+
+}
+
+h3{
+    font-family: 'Sansita';
+	src: url('fonts/Sansita/Sansita-LightItalic.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 300;
+    padding-left: 3vw;
+
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    padding: 1vw;
+    
+}
+
+a:hover img {
+    filter: blur(9);
+    border: 5px solid
+
+}
+
+section {
+    background-color: beige;
+    padding: 1vw;
+}
+
+.desc{
+    font-family: 'Sansita';
+	src: url('fonts/Sansita/Sansita-LightItalic.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 200;
+    padding-left: 1vw;
+
+}
+
+.elemento{
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+
+}
+
+
