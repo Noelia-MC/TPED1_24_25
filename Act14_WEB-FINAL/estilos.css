@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.carousel-control-prev-icon {
+  background-color: black;
+
+
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+
+
+}
+
+
+
+#carrusel {
+  width: 70%;
+  max-width: 70%;
+
+  padding: 100px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  margin: auto;
+  height: auto;
+
+
+}
+
+
+.spectral-light {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 150px;
+
+}
+
+
+.trabajo {
+  font-family: "Spectral", serif;
+  font-weight: 50;
+  font-style: normal;
+  font-size: 30pt;
+
+  padding-top: 0%;
+
+}
+
+
+
+#texto {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.topnav {
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+
+
+
+a {
+  text-decoration: none;
+  text-decoration-line: none;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+a:hover {
+
+  color: rgb(221, 135, 149);
+  text-decoration: none;
+
+
+}
+
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+
+}
+
+
+
+
+.card{
+
+margin: 70px;
+
+}
+
+
+.presentacion{
+
+padding-left: 400px;
+padding-right: 400px;
+
+}
+
+
+.italic {
+  font-style: italic;
+
+}
+
+.negrita {
+
+  font-weight: bolder;
+
+}
+
+
+
+#logo{
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+
+
+}
