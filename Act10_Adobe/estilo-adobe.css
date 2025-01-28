@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#imagen-fondo {
+    background-image: url(imagenes-adobe/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-size: 100%;
+
+}
+
+
+.topnav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 12pt;
+    color: aliceblue;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: row;
+
+}
+
+
+.grow{
+    flex-grow: 1;
+
+
+}
+
+
+#logo{
+    width: 3%;
+    display: flex;
+    flex-flow: row;
+    align-items: start;
+    justify-content: flex-start;
+
+}
+
+
+
+
+.menu{
+    padding: 10px;
+}
+
+
+#barra-menu{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.contenedor-texto{
+
+    width: 80%;
+    height: 650px;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+
+.derecha{
+    width: 120%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+
+}
+
+.izquierda{
+    width: 55%;
+    display: flex;
+    flex-flow: column;
+    align-content: flex-end;
+    justify-content: end;
+
+}
+
+
+#caja-1{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+#caja-2{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    height: 100%;
+
+}
+
+
+
+
+
+#abajo{
+width: 100%;
+}
+
+
+#linea-negra{
+    width: 100%;
+
+}
+
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+#texo-articulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(0, 174, 255); 
+    padding-bottom: 20px;
+}
+
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 15px; 
+}
+
+#texto-adobe{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 12px; 
+
+
+}
+
+.adobe-logos{
+    width: 40px;
+
+
+}
+
+
+#escala-colores{
+    width: 50%;
+
+}
+

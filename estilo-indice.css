@@ -1,4 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(img/background3.jpg);
+
+}
+
+
+
+
+.titulo{
+
+margin: 3%;
+
+}
+
+
 h1{
-    color: rgb(80, 203, 255);
-    background-color: bisque;
+	font-family: 'Chivo';
+	src: url('fonts/Chivo/Chivo-Thin.eot');
+	src: url('fonts/Chivo/Chivo-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/Chivo/Chivo-Thin.woff2') format('woff2'),
+		 url('fonts/Chivo/Chivo-Thin.woff') format('woff'),
+		 url('fonts/Chivo/Chivo-Thin.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 100;
+    font-size: 30pt;
+
+}
+
+p{
+	font-family: 'Chivo';
+	src: url('fonts/Chivo/Chivo-Thin.eot');
+	src: url('fonts/Chivo/Chivo-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/Chivo/Chivo-Thin.woff2') format('woff2'),
+		 url('fonts/Chivo/Chivo-Thin.woff') format('woff'),
+		 url('fonts/Chivo/Chivo-Thin.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 100;
+    font-size: 12pt;
+
+}
+
+
+.flex-container {
+
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    background-color: white;
+
+
+}
+
+
+.caja{
+	font-family: 'Chivo';
+	src: url('fonts/Chivo/Chivo-Thin.eot');
+	src: url('fonts/Chivo/Chivo-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/Chivo/Chivo-Thin.woff2') format('woff2'),
+		 url('fonts/Chivo/Chivo-Thin.woff') format('woff'),
+		 url('fonts/Chivo/Chivo-Thin.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 100;
+    font-size: 15pt;
+
+    margin: 2%;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(54, 126, 184);;
+
+}
+
+
+a:hover {
+    text-decoration: wavy;
+    color: rgb(54, 126, 184);
+    opacity: 50%;
+
+
+
 }
