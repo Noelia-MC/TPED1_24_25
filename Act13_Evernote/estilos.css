@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    height: auto;
+}
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+
+a{
+    color: rgb(61, 130, 38);
+
+}
+
+.negrita{
+
+font-weight: bold;
+
+}
+
+
+
+#flexcontainer{
+     
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     align-items: flex-start;
+ }
+ 
+ #imag{
+     width: 30%;
+     min-width: 300px;
+ }
+ 
+ #ItemFlex img{
+     width: 100%;
+ }
+
+
+#abajo {
+    height: 300px;
+}
+#videolibrary {
+    text-align: center;
+    margin-top: 50px;
+}
